@@ -1,0 +1,56 @@
+body{
+    background-color:white;
+    font-family:Arial;
+}
+
+img{
+    width:250px;
+    margin:20px;
+}
+
+/* Butterfly */
+img[src*="butterfly"]{
+    border-radius:40px;
+    box-shadow:0px 0px 20px purple;
+}
+
+/* Dinosaur */
+img[src*="dinosaur"]{
+    transform:rotate(-10deg);
+    filter:drop-shadow(10px 10px 10px gray);
+}
+
+/* Penguins */
+img[src*="penguins"]{
+    border-radius:50%;
+    border:5px solid lightgreen;
+}
+
+/* Seagull */
+img[src*="seagull"]{
+    box-shadow:10px 10px 15px gray;
+    border-radius:15px;
+}
+
+/* Theater */
+img[src*="theater"]{
+    filter:brightness(120%);
+    box-shadow:0px 0px 25px red;
+}
+
+/* Football field */
+img[src*="football"]{
+    border:8px solid black;
+}
+
+img[src*="tic"]{
+    transform:rotate(5deg);
+    box-shadow:0px 0px 15px gray;
+    border-radius:15px;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
